@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background: #EFEE00;
+}
+
+h1 {
+    color: #818100;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: green;
+}
+
+.naoconcluida {
+    color: red;
+}
+
+button {
+    margin-left: 10px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática de programa</title>
+    <style>
+        body {
+            background: lightblue;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>
+        Já me livrei da maldição
+    </p>
+    <script>
+        /*var n = window.prompt('Digite um nome: ')
+        window.alert('Seja bem vindo ' + n + ', é um prazer em te conhecer!')
+        Esse código server para emitir o alertar com a informação do nome da pessoa*/
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) /* esse comando serve para fazer a soma de dois número inteiros, se quiser realizar com números reais use: Number.parseFloat()*/
+        /* ${} (template string) facilita bastante na hora de formar strings e ele é envelopado por `crase ou acento agudo`
+        */
+        /*
+        Esse é o metódo mais antigo, exemplo: 'Eu quero comer ' + l (var l= lasanha)
+        */
+        /*
+        Esse é o jeito errado; ' Eu quero comer l', porque esse metódo não faz interpolação
+        */
+    </script>
+</body>
+</html>

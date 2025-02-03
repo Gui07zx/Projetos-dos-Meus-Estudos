@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`</title>
+        <style>
+            body {
+                font: normal 20pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <script>
+            var nome = window.prompt('Qual é o seu nome?')
+            document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras. <br/>`)
+            document.write(`Seu nome em maiuscúlas é ${nome.toUpperCase()} <br/>`)
+            document.write(`Seu nome em minuscúlas é ${nome.toLowerCase()}`)
+        </script>
+    </body>
+</html>

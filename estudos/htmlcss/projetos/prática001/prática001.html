@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>França.</title>
+    <style>
+        .entidade {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            font-size: 50px;
+            color: black;
+        }
+
+        /*classe entidade: a entidade seria a seta para baixo
+         •display: block: serve para o elemento ocupar toda a largura disponível.
+         •margin: px auto: centraliza horizontalmente o elemento e adiciona o espaçamento px determinado em cima e embaixo.
+         •text-align: alinha o conteúdo ao centro.
+         •font-size: altera o tamanho do conteúdo.
+         •color: altera a cor do conteúdo.*/
+
+        .titulo, .paragrafo {
+            max-width: 100%;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        /*Aqui é um código que está alterando o titulo e todos os parágrafos.
+          •max-width 100%: faz com que o elemento(os) não ultrapassarem a largura da tela.*/
+        .paragrafo {
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+
+        /*
+            •max-width: 800px: limita a largura máxima do conteúdo, deixando o conteúdo mais legível
+            •margin: 0 auto 20px: centraliza o conteúdo e adiciona 20px de margem inferior.
+            */
+        body {
+            font-family: 'Arial',
+            sans-serif;
+            line-height: 1.5;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">A França e sua belezas:</h1>
+    <p class="paragrafo">
+        A história da França é rica e complexa, com eventos que moldaram não só o pais, mas toda a europa. Alguns desses acontecimentos são:
+    </p>
+    <p class="paragrafo">
+        Antiguidade a idade média:
+    </p>
+    <p class="paragrafo">
+        Gália: O território que hoje é a França era habitado por povos celtas chamados gauleses. Foi conquistado por Júlio César e tornou-se parte do Império Romano em 51 a.C.<br>
+    </p>
+
+    <p class="paragrafo">
+        França Merovíngia e Carolíngia: Após a queda de Roma, os francos, liderados por Clóvis I, fundaram o Reino dos Francos, que se tornou a base da França moderna. Carlos Magno, coroado imperador em 800, expandiu o reino e consolidou o cristianismo.<br>
+    </p>
+    <span class="entidade">&darr;</span> <br> <!-- define uma classe para uma HTML entitles. -->
+    <img src="antiguidades.jpg" alt="revolução, Antiguidade a idade média" />
+</body>
+</html>
